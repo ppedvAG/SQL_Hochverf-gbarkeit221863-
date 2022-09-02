@@ -1,0 +1,167 @@
+<?xml version="1.0"?>
+<SqlWorkbenchSqlProject xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema" Name="SQL Hochverfügbarkeit">
+  <Items>
+    <LogicalFolder Name="Verbindungen" Type="2" Sorted="true">
+      <Items>
+        <ConnectionNode Name="NODEONE:SQLDOM\Administrator">
+          <Created>2022-01-20T09:58:06.8662633+01:00</Created>
+          <Type>SQL</Type>
+          <Server>NODEONE</Server>
+          <UserName />
+          <Authentication>Windows-Authentifizierung</Authentication>
+          <InitialDB />
+          <LoginTimeout>30</LoginTimeout>
+          <ExecutionTimeout>0</ExecutionTimeout>
+          <ConnectionProtocol>NotSpecified</ConnectionProtocol>
+          <ApplicationName>Microsoft SQL Server Management Studio - Abfrage</ApplicationName>
+        </ConnectionNode>
+        <ConnectionNode Name="NODETWO:SQLDOM\Administrator">
+          <Created>2022-01-21T13:48:44.3336734+01:00</Created>
+          <Type>SQL</Type>
+          <Server>NODETWO</Server>
+          <UserName />
+          <Authentication>Windows-Authentifizierung</Authentication>
+          <InitialDB>master</InitialDB>
+          <LoginTimeout>30</LoginTimeout>
+          <ExecutionTimeout>0</ExecutionTimeout>
+          <ConnectionProtocol>NotSpecified</ConnectionProtocol>
+          <ApplicationName>Microsoft SQL Server Management Studio - Abfrage</ApplicationName>
+        </ConnectionNode>
+        <ConnectionNode Name="SQLVPC\DEV:SQLDOM\Administrator">
+          <Created>2022-01-21T16:47:41.4279369+01:00</Created>
+          <Type>SQL</Type>
+          <Server>SQLVPC\DEV</Server>
+          <UserName />
+          <Authentication>Windows-Authentifizierung</Authentication>
+          <InitialDB>master</InitialDB>
+          <LoginTimeout>30</LoginTimeout>
+          <ExecutionTimeout>0</ExecutionTimeout>
+          <ConnectionProtocol>NotSpecified</ConnectionProtocol>
+          <ApplicationName>Microsoft SQL Server Management Studio - Abfrage</ApplicationName>
+        </ConnectionNode>
+      </Items>
+    </LogicalFolder>
+    <LogicalFolder Name="Abfragen" Type="0" Sorted="true">
+      <Items>
+        <FileNode Name="00_Inventur.sql">
+          <AssociatedConnectionMoniker>8c91a03d-f9b4-46c0-a305-b5dcc79ff907:NODEONE:True</AssociatedConnectionMoniker>
+          <AssociatedConnSrvName>NODEONE</AssociatedConnSrvName>
+          <AssociatedConnUserName />
+          <FullPath>00_Inventur.sql</FullPath>
+        </FileNode>
+        <FileNode Name="02_ScriptFürPrimDB.sql">
+          <AssociatedConnectionMoniker />
+          <AssociatedConnSrvName />
+          <AssociatedConnUserName />
+          <FullPath>02_ScriptFürPrimDB.sql</FullPath>
+        </FileNode>
+        <FileNode Name="02_Wiederhertellungsmodel.sql">
+          <AssociatedConnectionMoniker />
+          <AssociatedConnSrvName />
+          <AssociatedConnUserName />
+          <FullPath>02_Wiederhertellungsmodel.sql</FullPath>
+        </FileNode>
+        <FileNode Name="03_Logshipping.sql">
+          <AssociatedConnectionMoniker>8c91a03d-f9b4-46c0-a305-b5dcc79ff907:NODEONE:True</AssociatedConnectionMoniker>
+          <AssociatedConnSrvName>NODEONE</AssociatedConnSrvName>
+          <AssociatedConnUserName />
+          <FullPath>03_Logshipping.sql</FullPath>
+        </FileNode>
+        <FileNode Name="03_SciptfürReplika.sql">
+          <AssociatedConnectionMoniker />
+          <AssociatedConnSrvName />
+          <AssociatedConnUserName />
+          <FullPath>03_SciptfürReplika.sql</FullPath>
+        </FileNode>
+        <FileNode Name="04_Cluster_Inventar.sql">
+          <AssociatedConnectionMoniker />
+          <AssociatedConnSrvName />
+          <AssociatedConnUserName />
+          <FullPath>04_Cluster_Inventar.sql</FullPath>
+        </FileNode>
+        <FileNode Name="04_Mirror.sql">
+          <AssociatedConnectionMoniker>8c91a03d-f9b4-46c0-a305-b5dcc79ff907:NODEONE:True</AssociatedConnectionMoniker>
+          <AssociatedConnSrvName>NODEONE</AssociatedConnSrvName>
+          <AssociatedConnUserName />
+          <FullPath>04_Mirror.sql</FullPath>
+        </FileNode>
+        <FileNode Name="04_Spiegelung.sql">
+          <AssociatedConnectionMoniker>8c91a03d-f9b4-46c0-a305-b5dcc79ff907:NODEONE:True</AssociatedConnectionMoniker>
+          <AssociatedConnSrvName>NODEONE</AssociatedConnSrvName>
+          <AssociatedConnUserName />
+          <FullPath>04_Spiegelung.sql</FullPath>
+        </FileNode>
+        <FileNode Name="05_SQLCluster.sql">
+          <AssociatedConnectionMoniker />
+          <AssociatedConnSrvName />
+          <AssociatedConnUserName />
+          <FullPath>05_SQLCluster.sql</FullPath>
+        </FileNode>
+        <FileNode Name="06_AVG.sql">
+          <AssociatedConnectionMoniker />
+          <AssociatedConnSrvName />
+          <AssociatedConnUserName />
+          <FullPath>06_AVG.sql</FullPath>
+        </FileNode>
+        <FileNode Name="10c_SQL Condition LEvel setzen.sql">
+          <AssociatedConnectionMoniker>8c91a03d-f9b4-46c0-a305-b5dcc79ff907:NODEONE:True</AssociatedConnectionMoniker>
+          <AssociatedConnSrvName>NODEONE</AssociatedConnSrvName>
+          <AssociatedConnUserName />
+          <FullPath>10c_SQL Condition LEvel setzen.sql</FullPath>
+        </FileNode>
+        <FileNode Name="20_Replikation.sql">
+          <AssociatedConnectionMoniker>8c91a03d-f9b4-46c0-a305-b5dcc79ff907:NODETWO:True</AssociatedConnectionMoniker>
+          <AssociatedConnSrvName>NODETWO</AssociatedConnSrvName>
+          <AssociatedConnUserName />
+          <FullPath>20_Replikation.sql</FullPath>
+        </FileNode>
+        <FileNode Name="Bestandserfassung.sql">
+          <AssociatedConnectionMoniker>8c91a03d-f9b4-46c0-a305-b5dcc79ff907:NODEONE:True</AssociatedConnectionMoniker>
+          <AssociatedConnSrvName>NODEONE</AssociatedConnSrvName>
+          <AssociatedConnUserName />
+          <FullPath>Bestandserfassung.sql</FullPath>
+        </FileNode>
+        <FileNode Name="sp_help_revlogin.sql">
+          <AssociatedConnectionMoniker />
+          <AssociatedConnSrvName />
+          <AssociatedConnUserName />
+          <FullPath>sp_help_revlogin.sql</FullPath>
+        </FileNode>
+        <FileNode Name="toDO.sql">
+          <AssociatedConnectionMoniker>8c91a03d-f9b4-46c0-a305-b5dcc79ff907:NODEONE:True</AssociatedConnectionMoniker>
+          <AssociatedConnSrvName>NODEONE</AssociatedConnSrvName>
+          <AssociatedConnUserName />
+          <FullPath>toDO.sql</FullPath>
+        </FileNode>
+        <FileNode Name="X_Logins_autom_transferieren.sql">
+          <AssociatedConnectionMoniker>8c91a03d-f9b4-46c0-a305-b5dcc79ff907:SQLVPC\DEV:True</AssociatedConnectionMoniker>
+          <AssociatedConnSrvName>SQLVPC\DEV</AssociatedConnSrvName>
+          <AssociatedConnUserName />
+          <FullPath>X_Logins_autom_transferieren.sql</FullPath>
+        </FileNode>
+        <FileNode Name="X_Recap.sql">
+          <AssociatedConnectionMoniker />
+          <AssociatedConnSrvName />
+          <AssociatedConnUserName />
+          <FullPath>X_Recap.sql</FullPath>
+        </FileNode>
+        <FileNode Name="X-SystemDBs.sql">
+          <AssociatedConnectionMoniker />
+          <AssociatedConnSrvName />
+          <AssociatedConnUserName />
+          <FullPath>X-SystemDBs.sql</FullPath>
+        </FileNode>
+      </Items>
+    </LogicalFolder>
+    <LogicalFolder Name="Sonstiges" Type="3" Sorted="true">
+      <Items>
+        <FileNode Name="SQL HADR Dez 2021.ssmssqlproj">
+          <AssociatedConnectionMoniker />
+          <AssociatedConnSrvName />
+          <AssociatedConnUserName />
+          <FullPath>SQL HADR Dez 2021.ssmssqlproj</FullPath>
+        </FileNode>
+      </Items>
+    </LogicalFolder>
+  </Items>
+</SqlWorkbenchSqlProject>
